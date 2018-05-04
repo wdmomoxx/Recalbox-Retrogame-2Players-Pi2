@@ -92,34 +92,34 @@ struct {
 	// is detected (e.g. Cupcade or PiGRRL).
 	// Input   Output (from /usr/include/linux/input.h)
 	//Player 1 config
-	{  2,     KEY_UP       },   // Up
-	{  3,     KEY_DOWN     },   // Down
-	{  4,     KEY_LEFT     },   // Left Joystick (4 pins)
-	{ 17,     KEY_RIGHT    },   // Right
-	{ 27,     KEY_LEFTCTRL },   // Button 1
-	{ 22,     KEY_LEFTALT  },   // Button 2
-	{ 10,     KEY_SPACE  },     // Button 3
-	{  9,     KEY_LEFTSHIFT  },   // Button 4
-	{ 11,     KEY_Z  },   // Button 5
-	{  5,     KEY_X  },   // Button 6
-	{  6,     KEY_1  },   // Button Start P1
-	{ 13,     KEY_5  },   // Button Coins/Credits P1
+	{  4,     KEY_UP       },   // Up
+	{ 17,     KEY_DOWN     },   // Down
+	{ 27,     KEY_LEFT     },   // Left Joystick (4 pins)
+	{ 22,     KEY_RIGHT    },   // Right
+	{ 25,     KEY_LEFTCTRL },   // Button 1
+	{ 24,     KEY_LEFTALT  },   // Button 2
+	{ 15,     KEY_SPACE  },     // Button 3
+	{ 18,     KEY_LEFTSHIFT  },   // Button 4
+	{ 14,     KEY_Z  },   // Button 5
+	{ 23,     KEY_X  },   // Button 6
+	{ 10,     KEY_1  },   // Button Start P1
+	{  9,     KEY_5  },   // Button Coins/Credits P1
 	//Player 2 config
-	{  18,     KEY_R       },   // Up
-	{  23,     KEY_F     },   // Down
-	{  24,     KEY_D     },   // Left Joystick (4 pins)
-	{  25,     KEY_G    },   // Right
-	{   8,     KEY_A },   // Button 1
-	{   7,     KEY_S  },   // Button 2
-	{  12,     KEY_Q  },     // Button 3
-	{  16,     KEY_W  },   // Button 4
-	{  20,     KEY_E  },   // Button 5
-	{  21,     KEY_T  },   // Button 6
+	{  11,     KEY_R       },   // Up
+	{   5,     KEY_F     },   // Down
+	{   6,     KEY_D     },   // Left Joystick (4 pins)
+	{  13,     KEY_G    },   // Right
+	{  21,     KEY_A },   // Button 1
+	{  20,     KEY_S  },   // Button 2
+	{   7,     KEY_Q  },     // Button 3
+	{  12,     KEY_W  },   // Button 4
+	{   8,     KEY_E  },   // Button 5
+	{  16,     KEY_T  },   // Button 6
 	{  19,     KEY_2  },   // Button Start P2
 	{  26,     KEY_6  },   // Button Coins/Credits P2
 	// Button to halt system on pin 15 -> sudo halt
-	{  14, 	   KEY_0 },    // Button to exit emulators and programs
-	{  15, 	   KEY_ESC },    // Button to exit emulators and programs
+	{   3, 	   KEY_0 },    // Button to exit emulators and programs
+	{   2, 	   KEY_ESC },    // Button to exit emulators and programs
 	// For credit/start/etc., use USB keyboard or add more buttons.
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
