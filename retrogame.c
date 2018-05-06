@@ -91,36 +91,22 @@ struct {
 	// This pin/key table is used if an Adafruit PiTFT display
 	// is detected (e.g. Cupcade or PiGRRL).
 	// Input   Output (from /usr/include/linux/input.h)
-	//Player 1 config
-	{  4,     KEY_UP       },   // Up
-	{ 17,     KEY_DOWN     },   // Down
-	{ 27,     KEY_LEFT     },   // Left Joystick (4 pins)
-	{ 22,     KEY_RIGHT    },   // Right
-	{ 25,     KEY_LEFTCTRL },   // Button 1
-	{ 24,     KEY_LEFTALT  },   // Button 2
-	{ 15,     KEY_SPACE  },     // Button 3
-	{ 18,     KEY_LEFTSHIFT  },   // Button 4
-	{ 14,     KEY_Z  },   // Button 5
-	{ 23,     KEY_X  },   // Button 6
-	{ 10,     KEY_1  },   // Button Start P1
-	{  9,     KEY_5  },   // Button Coins/Credits P1
-	//Player 2 config
-	{  11,     KEY_R       },   // Up
-	{   5,     KEY_F     },   // Down
-	{   6,     KEY_D     },   // Left Joystick (4 pins)
-	{  13,     KEY_G    },   // Right
-	{  21,     KEY_A },   // Button 1
-	{  20,     KEY_S  },   // Button 2
-	{   7,     KEY_Q  },     // Button 3
-	{  12,     KEY_W  },   // Button 4
-	{   8,     KEY_E  },   // Button 5
-	{  16,     KEY_T  },   // Button 6
-	{  19,     KEY_2  },   // Button Start P2
-	{  26,     KEY_6  },   // Button Coins/Credits P2
-	// Button to halt system on pin 15 -> sudo halt
-	{   3, 	   KEY_0 },    // Button to exit emulators and programs
-	{   2, 	   KEY_ESC },    // Button to exit emulators and programs
-	// For credit/start/etc., use USB keyboard or add more buttons.
+	//1Player  config 15keys
+	{ 21,     KEY_UP	 },   // Up
+	{ 26,     KEY_DOWN	 },   // Down
+	{ 20,     KEY_LEFT	 },   // Left Joystick (4 pins)
+	{ 19,     KEY_RIGHT	 },   // Right
+	{ 12,     KEY_LEFTCTRL	 },   // Button 1
+	{  6,     KEY_LEFTALT	 },   // Button 2
+	{  5,     KEY_SPACE	 },     // Button 3
+	{ 23,     KEY_LEFTSHIFT  },   // Button 4
+	{ 22,     KEY_Z		 },   // Button 5
+	{ 27,     KEY_X		 },   // Button 6
+	{ 16,     KEY_1		 },   // Button Start P1
+	{ 13,     KEY_5		 },   // Button Coins/Credits P1
+	{ 15,     KEY_A		 },   // Button 7
+	{  3,     KEY_S		 },   // Button 8
+	{  2, 	  KEY_0		 },    // Button hotkey
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
 	// MAME must be configured with 'z' & 'x' as buttons 1 & 2 -
