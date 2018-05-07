@@ -96,17 +96,17 @@ struct {
 	{ 26,     KEY_DOWN	 },   // Down
 	{ 20,     KEY_LEFT	 },   // Left Joystick (4 pins)
 	{ 19,     KEY_RIGHT	 },   // Right
-	{ 12,     KEY_LEFTCTRL	 },   // Button 1
-	{  6,     KEY_LEFTALT	 },   // Button 2
-	{  5,     KEY_SPACE	 },     // Button 3
-	{ 23,     KEY_LEFTSHIFT  },   // Button 4
-	{ 22,     KEY_Z		 },   // Button 5
-	{ 27,     KEY_X		 },   // Button 6
-	{ 16,     KEY_1		 },   // Button Start P1
-	{ 13,     KEY_5		 },   // Button Coins/Credits P1
-	{ 15,     KEY_A		 },   // Button 7
-	{  3,     KEY_S		 },   // Button 8
-	{  2, 	  KEY_0		 },    // Button hotkey
+	{ 16,     KEY_ENTER	 },   // Button Start P1
+	{ 13,     KEY_1		 },   // Button Coins/Credits P1
+	{ 12,     KEY_X		 },   // Button 1
+	{  6,     KEY_Z		 },   // Button 2
+	{  5,     KEY_S		 },   // Button 3
+	{ 23,     KEY_A 	 },   // Button 4
+	{ 22,     KEY_Q		 },   // Button 5
+	{ 27,     KEY_W		 },   // Button 6
+	{ 15,     KEY_E		 },   // Button 7
+	{  3,     KEY_R		 },   // Button 8
+	{  2, 	  KEY_SPACE	 },   // Button hotkey
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
 	// MAME must be configured with 'z' & 'x' as buttons 1 & 2 -
