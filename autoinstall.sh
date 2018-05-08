@@ -26,9 +26,8 @@ git clone git://git.drogon.net/wiringPi
 cd ~/wiringPi
 ./build
 cd ~
-git clone https://github.com/wdmomoxx/Retrogame-2Players.git
+git clone -b 1player https://github.com/wdmomoxx/Retrogame-2Players.git
 cd Retrogame-2Players
-git pull origin 1player
 make
 sudo install retrogame /usr/local/bin/retrogame
 sudo sed -i 's/retrogame\ &//g' /etc/rc.local
